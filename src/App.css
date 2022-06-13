@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500;700&display=swap');
+
+
+/* header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999999999;
+    background-color: #060a1b !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+    font-size: 30px !important;
+    font-family: 'Ubuntu',
+        sans-serif;
+    font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-nav a {
+    color: #ffffff !important;
+    font-size: 18px;
+    font-family: 'Ubuntu',
+        sans-serif;
+    font-weight: 700;
+    padding: 3px 20px !important;
+    transition: all .4s ease-out;
+    border-radius: 30px 70px 30px 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-nav a:not(:last-child) {
+    margin-right: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav a:hover {
+    color: #060a1b !important;
+    background-color: #ffffff;
+    border-radius: 30px 70px 30px 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* banner */
+.banner {
+    padding: 100px 0;
+    background-color: #060a1b;
+}
+
+.banner-img img {
+    max-width: 300px;
+    min-height: 300px;
+}
+
+.heading {
+    font-family: 'Ubuntu',
+        sans-serif;
+}
+
+hr {
+    height: 5px !important;
+    width: 100px;
+}
+
+.banner-content p {
+    font-size: 18px;
+}
+
+.project_btn,
+.social-btn a {
+    color: #060a1b !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    border: 2px solid transparent !important;
+    background-color: #fff !important;
+    padding: 3px 30px !important;
+    transition: all .4s ease-out;
+    border-radius: 30px 70px 30px 70px !important;
+    -webkit-border-radius: 30px 70px 30px 70px !important;
+    -moz-border-radius: 30px 70px 30px 70px !important;
+    -ms-border-radius: 30px 70px 30px 70px !important;
+    -o-border-radius: 30px 70px 30px 70px !important;
+}
+
+.project_btn:hover,
+.social-btn a:hover {
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    background-color: transparent !important;
+}
+
+.projects {
+    background-color: #060a1b;
+    padding: 50px 0;
+}
+
+footer {
+    background: #060a1b;
+}
+
+.social-icon a {
+    font-size: 28px;
+    color: #ffffff;
+    display: inline-block;
+    transition: all .4s ease-out;
+}
+
+.social-icon a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.social-icon a:hover {
+    color: #ffffff !important;
+    transform: translateY(-8px) !important;
+    -webkit-transform: translateY(-8px) !important;
+    -moz-transform: translateY(-8px) !important;
+    -ms-transform: translateY(-8px) !important;
+    -o-transform: translateY(-8px) !important;
+}
+
+.skill-image img {
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.progress-bar {
+    background-color: #060a1b !important;
+}
+
+@media (max-width: 767.98px) {
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner-img img {
+        max-width: 250px;
+        min-height: 250px;
+    }
+
+    hr {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .project_btn,
+    .social-btn a {
+        font-size: 16px !important;
+    }
+
+    .skill-image img {
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 20px;
+    }
 }

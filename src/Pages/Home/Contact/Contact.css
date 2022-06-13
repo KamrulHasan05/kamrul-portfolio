@@ -1,0 +1,52 @@
+.myEmailForm {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.myEmailForm input,
+.myEmailForm textarea {
+    width: 100%;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 30px 70px 30px 70px;
+    margin-bottom: 10px;
+}
+
+.myEmailForm input,
+.myEmailForm textarea {
+    outline: none;
+    box-shadow: 0 0 10px #060a1b;
+}
+
+.submit-btn {
+    color: #ffffff !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    border: 2px solid transparent !important;
+    background-color: #060a1b !important;
+    border-radius: 30px 70px 30px 70px !important;
+    -webkit-border-radius: 30px 70px 30px 70px !important;
+    -moz-border-radius: 30px 70px 30px 70px !important;
+    -ms-border-radius: 30px 70px 30px 70px !important;
+    -o-border-radius: 30px 70px 30px 70px !important;
+    padding: 3px 30px !important;
+    transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+}
+
+.submit-btn:hover {
+    border: 2px solid #060a1b !important;
+    background-color: transparent !important;
+    color: #060a1b !important;
+}
+
+.line {
+    height: 5px;
+    background-color: #060a1b;
+    max-width: 100px;
+    opacity: 1;
+}

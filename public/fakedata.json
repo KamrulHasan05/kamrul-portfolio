@@ -1,0 +1,44 @@
+[
+    {
+      "key": 101,
+      "name": "GIGABYTE",
+      "details": "GIGABYTE is a manufacture of computer motherboards. It is a wholesale company with a minimum quantity.",
+      "feature1":"Different dashboard for customer and admin.",
+      "feature2":"Dashboard is a protected page. It’s only for logged in users.",
+      "feature3":"Payment system is integrated.",
+      "technology":"React js, React Bootstrap, React Router, Firebase, MongoDb, Express js",
+      "img": "https://i.ibb.co/74Cnp6K/2.jpg",
+      "img2": "https://i.ibb.co/t8xZ2N5/gigabyte.jpg",
+      "url": "https://gbytemotherboard.web.app",
+      "client": "https://github.com/KamrulHasan05/manufacture-client-side",
+      "server":"https://github.com/KamrulHasan05/manufacture-server-side"
+    },
+    
+    {
+      "key": 102,
+      "name": "Cycle Mart",
+      "details": "Cycle Mart is a cycle warehouse. There is an inventory option for managing the volume of deliveries and restocking products.",
+      "feature1":"Inventory system is integrated.",
+      "feature2":"All pages are protected except home page. Only logged in user can see all pages.",
+      "feature3":"Google and Password authentication systems are integrated.",
+      "technology": "React js, React Bootstrap, React Router, Firebase, JWT, MongoDb, Express js",
+      "img": "https://i.ibb.co/GFVFyYn/1.jpg",
+      "img2": "https://i.ibb.co/hFhnX46/cycle.jpg",
+      "url": "https://cycle-warehouse-1d78b.web.app",
+      "client":"https://github.com/KamrulHasan05/warehouse-client-side",
+      "server":"https://github.com/KamrulHasan05/warehouse-server-side"
+    },
+    {
+      "key": 103,
+      "name": "Learn With Rony",
+      "details": "LWR (Learn with Rony) is a professional trainer website. On this site, the trainer sells different courses to help others grow their careers.",
+      "feature1":"Simple and Minimalistic website.",
+      "feature2":"Firebase authentication.",
+      "feature3":"Check out Page is a protected page. It’s only for logged in users who will buy services.",
+      "technology": "React js, React Bootstrap, React Router, Firebase",
+      "img": "https://i.ibb.co/bNdcVK3/3.jpg",
+      "img2": "https://i.ibb.co/8NDd52V/learnwithrony.jpg",
+      "url": "https://learn-with-rony-8475e.web.app",
+      "client":"https://github.com/KamrulHasan05/independent-service-provider"
+    }
+]
