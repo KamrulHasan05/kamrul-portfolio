@@ -11,10 +11,10 @@ const Footer = () => {
                     </div>
                     <div className="col-md-5">
                         <div className="social-icon text-center text-md-end mt-4 mt-md-0">
-                            <Link to={''}><i className="fa-brands fa-facebook-square"></i></Link>
-                            <Link to={''}><i className="fa-brands fa-twitter-square"></i></Link>
-                            <Link to={''}><i className="fa-brands fa-linkedin"></i></Link>
-                            <Link to={''}><i className="fa-brands fa-github-square"></i></Link>
+                            <a rel="noreferrer" href="https://web.facebook.com/kh.kamrulhasan.05/" target="_blank"><i className="fa-brands fa-facebook-square"></i></a>
+                            <a rel="noreferrer" href="https://twitter.com/kamrulhasan_05" target="_blank"><i className="fa-brands fa-twitter-square"></i></a>
+                            <a rel="noreferrer" href="https://www.linkedin.com/in/kamrul-hasan-05/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                            <a rel="noreferrer" href="https://github.com/KamrulHasan05" target="_blank"><i className="fa-brands fa-github-square"></i></a>
                         </div>
                     </div>
                 </div>
